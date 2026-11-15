@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TIDEWARDEN — a tidal tower defence</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0b1c26; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh;
+         font-family: Georgia, 'Times New Roman', serif; }
+  #frame { box-shadow: 0 18px 60px rgba(0,0,0,.55), 0 0 0 1px #2c5a6b; border-radius: 6px; overflow: hidden; }
+  canvas { display: block; width: 1280px; height: 720px; background: #10303f; }
+</style>
+</head>
+<body>
+<div id="frame">
+  <canvas id="game" width="1280" height="720"></canvas>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
